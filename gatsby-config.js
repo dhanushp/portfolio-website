@@ -24,7 +24,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Dhanush Bangera`,
+        name: `Cara - @lekoarts/gatsby-theme-cara`,
         short_name: `Dhanush`,
         description: `A young passionate Designer with love for Open-Source and Web development`,
         start_url: `/`,
