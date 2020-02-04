@@ -25,7 +25,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Dhanush`,
+        short_name: `Cara`,
         description: `A young passionate Designer with love for Open-Source and Web development`,
         start_url: `/`,
         background_color: `#141821`,
