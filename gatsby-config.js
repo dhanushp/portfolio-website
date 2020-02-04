@@ -24,8 +24,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
+        name: `Dhanush Bangera`,
+        short_name: `Dhanush`,
         description: `A young passionate Designer with love for Open-Source and Web development`,
         start_url: `/`,
         background_color: `#141821`,
@@ -33,12 +33,12 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/static/android-chrome-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/static/android-chrome-512x512.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
