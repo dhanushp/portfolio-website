@@ -1,0 +1,16 @@
+# This file is a template, and might need editing before it works on your project.
+image: node:latest
+
+pages:
+  script:
+  - npm install
+  - npm install gatsby-cli
+  - node_modules/.bin/gatsby build --prefix-paths
+  artifacts:
+    paths:
+    - public
+  cache:
+    paths:
+      - node_modules
+  only:
+  - master

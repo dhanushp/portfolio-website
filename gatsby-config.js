@@ -1,51 +1,57 @@
-require(`dotenv`).config({
-  path: `.env`,
-})
+const config = require('./config/website')
+
+const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 module.exports = {
+  /* General Information */
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // Of course you can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Dhanush Bangera`,
+    siteUrl: config.siteUrl + pathPrefix,
   },
+  /* Plugins */
   plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-styled-components',
     {
-      resolve: `@lekoarts/gatsby-theme-cara`,
-      // See the theme's README for all available options
-      options: {},
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        path: `${__dirname}/src/images/`,
+        name: 'images',
       },
     },
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        name: `Dhanush Bangera`,
-        short_name: `Dhanush`,
-        description: `A young passionate Designer with love for Open-Source and Web development`,
-        start_url: `/`,
-        background_color: `#141821`,
-        theme_color: `#f6ad55`,
-        display: `standalone`,
+        trackingId: config.googleAnalyticsID,
+      },
+    },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: config.siteTitle,
+        short_name: config.siteTitleShort,
+        description: config.siteDescription,
+        start_url: config.pathPrefix,
+        background_color: config.backgroundColor,
+        theme_color: config.themeColor,
+        display: 'standalone',
         icons: [
           {
-            src: `/static/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
+            src: '/favicons/android-chrome-192x192.png',
+            sizes: '192x192',
+            type: 'image/png',
           },
           {
-            src: `/static/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
+            src: '/favicons/android-chrome-384x384.png',
+            sizes: '384x384',
+            type: 'image/png',
           },
         ],
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
+    /* Must be placed at the end */
+    'gatsby-plugin-offline',
+    'gatsby-plugin-netlify',
   ],
 }
