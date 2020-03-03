@@ -107,7 +107,7 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2020 by Dhanush Bangera <a href="https://github.com/dhanushp">Github Repository</a>.
+          &copy; { new Date().getFullYear() } by Dhanush Bangera <a href="https://github.com/dhanushp">Github Repository</a>.
         </Footer>
       </Contact>
     </Parallax>
