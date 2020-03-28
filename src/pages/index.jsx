@@ -94,7 +94,7 @@ const Index = () => (
           <AboutSub>Geek, Designer, Web-Developer, Open Source Contributor & Future Engineer.</AboutSub>
         </AboutHero>
         <AboutDesc>
-        In a nutshell, that means that I sit at my shiny laptop all day long creating snazzy designs for cool folks and developing extraordinary website's like the one you are on right now. Like the most people out there, started my career as Designer and slowly shifted to a front-end developer. I build things for web using React and Gatsby. I am currently pursing my Bachelors Degree in Computer Science and Engineering from Sahyadri College of Engineering and Management. I have been part of open source community of my college which have been helping students by sharing knowledge of open source and latest technologies.
+        In a nutshell, that means that I sit at my shiny laptop all day long creating snazzy designs for cool folks and developing extraordinary website's like the one you are on right now. I build things for web using React and Gatsby. I am currently pursing my Bachelors Degree in Computer Science and Engineering from Sahyadri College of Engineering and Management. I have been part of open source community of my college which have been helping students by sharing knowledge of open source and latest technologies.
           <br />I am Co-Design Head at <a href="https://sosc.org.in/">Sahyadri Open Source Community</a> and also Design Lead at Mozilla Club of Sahyadri.
         </AboutDesc>
       </About>
