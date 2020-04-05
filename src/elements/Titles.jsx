@@ -8,14 +8,15 @@ export const Title = styled.h1`
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   &:before {
     content: '';
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 35px;
     background: url(${triangle});
     position: absolute;
-    background-size: 40px;
+    background-size: 50px;
     ${rotateAnimation('4s')};
-    left: -60px;
+    left: -70px;
     top: 5px;
+    background-repeat: no-repeat;
   }
 `
 
