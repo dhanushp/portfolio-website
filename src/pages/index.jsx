@@ -64,7 +64,7 @@ const Index = () => (
           Hey, <br /> I'm Dhanush Bangera.
         </BigTitle>
         <Subtitle>
-        A young passionate <b>Designer</b> with love for Open-Source and <b>Web development</b>.
+        A young passionate Designer with love for Open-Source and Web development.
         </Subtitle>
       </Hero>
       <Projects offset={1}>
@@ -74,16 +74,16 @@ const Index = () => (
             My Portfolio website developed using GatsbyJs, where you are probably reading this right now.
           </ProjectCard>
 
+          <ProjectCard title="Melriver-React" link="https://github.com/dhanushp/melriver-react" bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)">
+            A random website design taken fromm Awwwards, built using React and GSAP.
+          </ProjectCard>
+
           <ProjectCard title="Pig Game" link="https://github.com/dhanushp/pig-game" bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)">
             A simple dice game developed using JavaScript after seeing the craze for dice games among my friends.
           </ProjectCard>
 
           <ProjectCard title="Weather App" link="https://github.com/dhanushp/Weather-App" bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)">
             A web based app built on JavaScript to find the weather of a city, also my first ever project.
-          </ProjectCard>
-
-          <ProjectCard title="JavaScript Course" link="https://github.com/dhanushp/JavaScript-Course" bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)">
-            A repo maintained to things that I learn during Javascript course and keep track of my daily code.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
