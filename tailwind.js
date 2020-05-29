@@ -192,7 +192,6 @@ module.exports = {
   | Class name: .font-{name}
   |
   */
-
   fonts: {
     sans: [
       'Open Sans',
@@ -208,19 +207,7 @@ module.exports = {
       'Helvetica Neue',
       'sans-serif',
     ],
-    serif: [
-      'Cantata One',
-      'Constantia',
-      'Lucida Bright',
-      'Lucidabright',
-      'Lucida Serif',
-      'Lucida',
-      'DejaVu Serif',
-      'Bitstream Vera Serif',
-      'Liberation Serif',
-      'Georgia',
-      'serif',
-    ],
+    serif: ['inter'],
     mono: ['Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
   },
 

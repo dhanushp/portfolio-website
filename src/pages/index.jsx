@@ -63,26 +63,40 @@ const Index = () => (
         <BigTitle>
           Hey, <br /> I'm Dhanush Bangera.
         </BigTitle>
-        <Subtitle>
-        A young passionate Designer with love for Open-Source and Web development.
-        </Subtitle>
+        <Subtitle>A young passionate designer with love for open-source and web development.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
-          <ProjectCard title="Portfolio Website" link="https://github.com/dhanushp/Portfolio-v3" bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)">
+          <ProjectCard
+            title="Portfolio Website"
+            link="https://github.com/dhanushp/Portfolio-v3"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
             My Portfolio website developed using GatsbyJs, where you are probably reading this right now.
           </ProjectCard>
 
-          <ProjectCard title="Melriver-React" link="https://github.com/dhanushp/melriver-react" bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)">
+          <ProjectCard
+            title="Melriver-React"
+            link="https://github.com/dhanushp/melriver-react"
+            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+          >
             A random website design taken fromm Awwwards, built using React and GSAP.
           </ProjectCard>
 
-          <ProjectCard title="Pig Game" link="https://github.com/dhanushp/pig-game" bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)">
+          <ProjectCard
+            title="Pig Game"
+            link="https://github.com/dhanushp/pig-game"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+          >
             A simple dice game developed using JavaScript after seeing the craze for dice games among my friends.
           </ProjectCard>
 
-          <ProjectCard title="Weather App" link="https://github.com/dhanushp/Weather-App" bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)">
+          <ProjectCard
+            title="Weather App"
+            link="https://github.com/dhanushp/Weather-App"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+          >
             A web based app built on JavaScript to find the weather of a city, also my first ever project.
           </ProjectCard>
         </ProjectsWrapper>
@@ -90,12 +104,20 @@ const Index = () => (
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src="https://avatars1.githubusercontent.com/u/43709470?s=400&u=6ea852501f8b67cef1bde4602cc3c13abb6b4cd8&v=4" alt="Dhanush Bangera" />
+          <Avatar
+            src="https://avatars1.githubusercontent.com/u/43709470?s=400&u=6ea852501f8b67cef1bde4602cc3c13abb6b4cd8&v=4"
+            alt="Dhanush Bangera"
+          />
           <AboutSub>Geek, Designer, Web-Developer, Open Source Contributor & Future Engineer.</AboutSub>
         </AboutHero>
         <AboutDesc>
-        In a nutshell, that means that I sit at my shiny laptop all day long creating snazzy designs for cool folks and developing extraordinary website's like the one you are on right now. I build things for web using React and Gatsby. I am currently pursing my Bachelors Degree in Computer Science and Engineering from Sahyadri College of Engineering and Management. I have been part of open source community of my college which have been helping students by sharing knowledge of open source and latest technologies.
-          <br />I am Co-Design Head at <a href="https://sosc.org.in/">Sahyadri Open Source Community</a> and also Design Lead at Mozilla Club of Sahyadri.
+          In a nutshell, that means that I sit at my shiny laptop all day long creating snazzy designs for cool folks
+          and developing extraordinary website's like the one you are on right now. I build things for web using React
+          and Gatsby. I am currently pursing my Bachelors Degree in Computer Science and Engineering from Sahyadri
+          College of Engineering and Management. I have been part of open source community of my college which have been
+          helping students by sharing knowledge of open source and latest technologies.
+          <br />I am Co-Design Head at <a href="https://sosc.org.in/">Sahyadri Open Source Community</a> and also Design
+          Lead at Mozilla Club of Sahyadri.
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -103,11 +125,13 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:dhanushpb420@gmail.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/Dhanushp">Dribbble</a> ,<a href="https://www.instagram.com/dhanush_bangera/">Instagram</a>{' '}
+            <a href="https://dribbble.com/Dhanushp">Dribbble</a> ,
+            <a href="https://www.instagram.com/dhanush_bangera/">Instagram</a>{' '}
           </ContactText>
         </Inner>
         <Footer>
-          &copy; { new Date().getFullYear() } by Dhanush Bangera <a href="https://github.com/dhanushp">Github Repository</a>.
+          &copy; {new Date().getFullYear()} by Dhanush Bangera{' '}
+          <a href="https://github.com/dhanushp">Github Repository</a>.
         </Footer>
       </Contact>
     </Parallax>
