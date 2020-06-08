@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-cara",
-  "description": "Playful & Colorful One-Page website with Parallax effect powered by react-spring, TailwindCSS.",
+  "name": "portfolio-website-dhanush",
+  "description": "Official portfolio website of Dhanush",
   "version": "3.0.0",
-  "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+  "author": "Dhanush Bangera",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
