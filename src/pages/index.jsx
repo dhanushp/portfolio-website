@@ -61,7 +61,7 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hey 👋, <br /> I'm Dhanush Bangera.
+          Hey, <br /> I'm Dhanush Bangera.
         </BigTitle>
         <Subtitle>
           A young passionate designer with love for open-source and web
@@ -69,7 +69,7 @@ const Index = () => (
         </Subtitle>
       </Hero>
       <Projects offset={1}>
-        <Title>Projects 🚧</Title>
+        <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
             title="Portfolio Website"
@@ -109,7 +109,7 @@ const Index = () => (
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
-        <Title>About 😄</Title>
+        <Title>About</Title>
         <AboutHero>
           <Avatar
             src="https://avatars1.githubusercontent.com/u/43709470?s=400&u=6ea852501f8b67cef1bde4602cc3c13abb6b4cd8&v=4"
@@ -129,14 +129,14 @@ const Index = () => (
           and Management. I have been part of open source community of my
           college which have been helping students by sharing knowledge of open
           source and latest technologies.
-          <br />I am Co-Design Head at{" "}
+          <br />I am Design Head at{" "}
           <a href="https://sosc.org.in/">Sahyadri Open Source Community</a> and
           also Design Lead at Mozilla Club of Sahyadri.
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
-          <Title>Get in touch 💬</Title>
+          <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:dhanushpb420@gmail.com">Hi</a> or find me on
             other platforms:{" "}
