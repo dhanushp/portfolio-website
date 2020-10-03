@@ -79,6 +79,14 @@ const Index = () => (
             My Portfolio website developed using GatsbyJs, where you are
             probably reading this right now.
           </ProjectCard>
+          
+          <ProjectCard
+            title="devhost 2020"
+            link="https://github.com/so-sc/devhost2020"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+          >
+            Website built with Gatsby.js for annual event of SOSC.
+          </ProjectCard>
 
           <ProjectCard
             title="Melriver-React"
@@ -97,15 +105,7 @@ const Index = () => (
             A simple dice game developed using JavaScript after seeing the craze
             for dice games among my friends.
           </ProjectCard>
-
-          <ProjectCard
-            title="Weather App"
-            link="https://github.com/dhanushp/Weather-App"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-          >
-            A web based app built on JavaScript to find the weather of a city,
-            also my first ever project.
-          </ProjectCard>
+          
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
