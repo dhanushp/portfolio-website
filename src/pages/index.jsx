@@ -89,12 +89,11 @@ const Index = () => (
           </ProjectCard>
 
           <ProjectCard
-            title="Melriver-React"
-            link="https://github.com/dhanushp/melriver-react"
+            title="UK Group"
+            link="https://ukgroup.co.in/"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A random website design taken fromm Awwwards, built using React and
-            GSAP.
+            A website made with Gatsby for UK Business Group.
           </ProjectCard>
 
           <ProjectCard
